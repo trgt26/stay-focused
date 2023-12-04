@@ -1,4 +1,7 @@
 {
-    "/dist/js/newTab.js": "/dist/js/newTab.js",
-    "/dist/css/newTab.css": "/dist/css/newTab.css"
+    "/dist2/js/background.js": "/dist2/js/background.js",
+    "/dist2/js/content.js": "/dist2/js/content.js",
+    "/dist2/manifest.json": "/dist2/manifest.json",
+    "/dist2/index.html": "/dist2/index.html",
+    "/dist2/newTab.html": "/dist2/newTab.html"
 }

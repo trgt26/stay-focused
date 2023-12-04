@@ -1,0 +1,26 @@
+{
+    "name": "Stay Focused",
+    "description": "Helps you to stay focused while surfing internet.",
+    "version": "1.0",
+    "manifest_version": 3,
+    
+    "background": {
+        "service_worker": "js/background.js"
+      },
+
+    "content_scripts" : [{
+        "matches":["https://*/*"],
+        "js":["js/content.js"]
+    }],
+    
+    "chrome_url_overrides": {
+        "newtab": "newTab.html"
+    },
+
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    },
+
+
+    "permissions": ["storage"]
+  }

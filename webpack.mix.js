@@ -15,7 +15,11 @@ const mix = require('laravel-mix');
 //     .sourceMaps()
 //     .react()
 
+// .sass('src/sass/newTab.scss', 'dist/css')
+// .react()
 
-mix.ts('src/newTab.tsx', 'dist/js')
-.sass('src/sass/newTab.scss', 'dist/css')
-    .react()
+mix
+.ts('src/ts/background.ts', 'dist2/js/')
+.ts('src/ts/content.ts', 'dist2/js/')
+.copy('src/config/*', 'dist2/')
+.copy('src/html/*', 'dist2/')

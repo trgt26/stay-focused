@@ -5,7 +5,8 @@
       "jsx" : "react",
       "esModuleInterop":true,
       "noImplicitAny": false,
-      "sourceMap": false
+      "sourceMap": false,
+      "outDir": "dist2"
     },
-    "include": ["src/*"]
+    "include": ["src/*", "src/newTab.tsx", "src/data.tsx"]
   }
