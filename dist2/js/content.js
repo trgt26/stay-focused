@@ -1,8 +1,9 @@
 /******/ (() => { // webpackBootstrap
 var __webpack_exports__ = {};
 /*!***************************!*\
-  !*** ./src/ts/content.ts ***!
+  !*** ./src/js/content.ts ***!
   \***************************/
 var p = 434;
+console.log("hello content js");
 /******/ })()
 ;

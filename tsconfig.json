@@ -8,5 +8,5 @@
       "sourceMap": false,
       "outDir": "dist2"
     },
-    "include": ["src/*", "src/newTab.tsx", "src/data.tsx"]
+    "include": ["src/*", "src/js/newTab.tsx", "src/js/data.tsx"]
   }

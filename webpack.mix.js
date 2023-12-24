@@ -19,7 +19,9 @@ const mix = require('laravel-mix');
 // .react()
 
 mix
-.ts('src/ts/background.ts', 'dist2/js/')
-.ts('src/ts/content.ts', 'dist2/js/')
+.ts('src/js/background.ts', 'dist2/js/')
+.ts('src/js/content.ts', 'dist2/js/')
+.ts('src/js/options.ts', 'dist2/js/')
+.ts('src/js/data.tsx', 'dist2/js/')
 .copy('src/config/*', 'dist2/')
-.copy('src/html/*', 'dist2/')
+.copy('src/html/*', 'dist2/html/')

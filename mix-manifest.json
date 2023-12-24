@@ -1,7 +1,10 @@
 {
     "/dist2/js/background.js": "/dist2/js/background.js",
     "/dist2/js/content.js": "/dist2/js/content.js",
+    "/dist2/js/options.js": "/dist2/js/options.js",
+    "/dist2/js/data.js": "/dist2/js/data.js",
     "/dist2/manifest.json": "/dist2/manifest.json",
-    "/dist2/index.html": "/dist2/index.html",
-    "/dist2/newTab.html": "/dist2/newTab.html"
+    "/dist2/html/index.html": "/dist2/html/index.html",
+    "/dist2/html/newTab.html": "/dist2/html/newTab.html",
+    "/dist2/html/options.html": "/dist2/html/options.html"
 }

@@ -3,7 +3,10 @@
     "description": "Helps you to stay focused while surfing internet.",
     "version": "1.0",
     "manifest_version": 3,
-    
+    "action": {
+      "default_popup": "html/options.html",
+      "default_title": "Choose Options"
+   },
     "background": {
         "service_worker": "js/background.js"
       },
@@ -14,7 +17,7 @@
     }],
     
     "chrome_url_overrides": {
-        "newtab": "newTab.html"
+        "newtab": "html/newTab.html"
     },
 
     "content_security_policy": {
@@ -22,5 +25,5 @@
     },
 
 
-    "permissions": ["storage"]
+    "permissions": ["storage",  "activeTab"]
   }
